@@ -410,6 +410,7 @@ header .button-container button:active {
     color: #4e5840;
     display: flex;
     align-items: flex-start;
+    margin-inline: 10%;
     padding: 40px;
     background: linear-gradient(135deg, rgba(91, 164, 213, 0.344), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
