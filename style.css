@@ -409,13 +409,15 @@ header .button-container button:active {
     
     color: #4e5840;
     display: flex;
-    align-items: flex-start;
+    align-items: start;
+    justify-content:center;
     padding: 40px;
     background: linear-gradient(135deg, rgba(91, 164, 213, 0.344), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 350px;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     flex-direction:column;
     text-align: right;
@@ -483,6 +485,11 @@ header .button-container button:active {
 #button_div{
     margin-top: 10%;
     margin-inline: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
     button {
         border: none;
         background: linear-gradient(135deg, #6a7758, #aebda5);
@@ -579,7 +586,7 @@ header .button-container button:active {
     justify-content: center;
     align-items: center;
     display: flex;
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: left;
     margin-left: 10px;
 }
