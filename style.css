@@ -515,6 +515,40 @@ header .button-container button:active {
     height: 100dvh;
 }
 
+@media (max-width : 400px){
+    #button_div{
+        margin-top: 10%;
+        margin-inline: 10px;
+        button {
+            border: none;
+            background: linear-gradient(135deg, #6a7758, #aebda5);
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            
+            margin-inline: 2px;
+            margin-top: 20px;
+            padding: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background 0.3s ease-in-out, transform 0.2s ease;
+        }
+    
+        button:hover {
+            background: linear-gradient(135deg, #aebda5, #6a7758);
+            transform: scale(1.05);
+            
+        }
+    
+        button:active {
+            transform: scale(0.95);
+        }
+    }
+    
+
+}
+
+
 @media (max-width : 500px){
     #button_div{
         margin-top: 10%;
