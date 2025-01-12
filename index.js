@@ -46,7 +46,7 @@ function handle_calculate_re(n){
 
 function disply_result(number, result, method){
     const result_div = document.getElementById('result');
-    result_div.innerHTML = `The factorial of "${number}".  <br/> The "${method}" method is:- ${result}`;
+    result_div.innerHTML = `<div><h4>The factorial of "${number}".</h4> <h4>The "${method}" method is:- "${result}"<h4/></div>`;
 }
 
 document.addEventListener("DOMContentLoaded", () => {
