@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./imgs/logo.png" alt="" srcset="" style="width: 60px;">
+        </div>
+        <nav id="nav-links">
+            <a href="#first_section">Home</a>
+            <a href="#hello">Learn</a>
+            <a href="#comments_area">Community</a>
+            <div class="button-container">
+                <button>Sign Up</button>
+            </div>
+        </nav>
+
+        <div class="hamburger" id="hamburger-menu">
+            <!-- Three lines icon -->
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <section id="first_section">
+            <div id="image_div">
+                <img src="./imgs/Accountant-bro.png" alt="" srcset="" id="img_chang">
+            </div>
+            <div id="content_div">
+                <div>
+                    <h2>Iteration & Recursion</h2>
+                </div>
+                <label for="input_box">enter a number</label>
+                <input type="number" id="input_box" min="0" placeholder="enter a number ex: 1,2,3...">
+                <div id="button_div">
+                    <button type="button" id="calculate_it">calculate iterative</button>
+                    <button type="button" id="calculate_re">calculate recursive</button>
+                </div>
+                <div id="result"></div>
+
+            </div>
+        </section>
+    </main>
+
+    <section id="hello">
+        <div id="welcome_div">
+            <h1>Welcome to Iteration & Recursion Hub</h1>
+            <p>Discover the beauty of solving mathematical problems through two of the most fundamental concepts: Iteration and Recursion. Whether you are a student, educator, or a math enthusiast, our website is your one-stop destination to understand, learn, and calculate iterative and recursive solutions effectively.</p>
+        </div>        
+        <div id="kk_q">
+            <div id="data_information">
+                <div id="data_info">
+                    <h2>Iteration in Mathematics</h2>
+                    <p>
+                        Iteration is a process of repeatedly applying a specific formula or operation to achieve a desired result. 
+                        It is commonly used to generate sequences, solve equations, or refine approximations. 
+                        For example, in solving equations numerically, iterative methods like Newton's method repeatedly improve the 
+                        estimate of a solution until it converges to the correct value. Similarly, in generating sequences such as the Fibonacci series, 
+                        iteration involves calculating each term based on a fixed rule applied repeatedly. Iteration is memory-efficient and straightforward, 
+                        making it an essential tool for many mathematical and computational applications.
+                    </p>
+                </div>
+    
+            </div>
+            <div id="data_information">
+                <div id="data_info">
+                    <h2>Recursion in Mathematics</h2>
+                    <p>
+                        Recursion is a method where a problem is solved by breaking it into smaller instances of the same problem. 
+                        This is achieved by defining a function or a rule that references itself. For instance, the factorial of a number 
+                        \( n \) is calculated recursively as \( n! = n \times (n-1)! \), with a base case \( 0! = 1 \). 
+                        Recursion is particularly useful for problems with self-similar structures, such as fractals, tree algorithms, 
+                        or the Tower of Hanoi puzzle. While it can be less memory-efficient than iteration, recursion provides a clean and 
+                        elegant approach to solving problems that naturally divide into smaller sub-problems.
+                    </p>
+                </div>
+    
+            </div>
+        </div>
+        
+    </section>
+   
+    <section id="comments_area">
+        <div class="comments_wrapper">
+            <div class="comment_form_container">
+                <h3>Leave a Comment</h3>
+                <form class="comment_form">
+                    <div class="input_group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="input_group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="input_group">
+                        <label for="comment">Your Comment</label>
+                        <textarea id="comment" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="submit_btn">Post Comment</button>
+                </form>
+            </div>
+
+            <div class="comments_display">
+                <h3>Recent Comments</h3>
+                <div class="comment">
+                    <div class="comment_header">
+                        <h4>John Doe</h4>
+                        <span>March 21, 2024</span>
+                    </div>
+                    <p>This explanation of recursion really helped me understand the concept better!</p>
+                </div>
+                <div class="comment">
+                    <div class="comment_header">
+                        <h4>Jane Smith</h4>
+                        <span>March 20, 2024</span>
+                    </div>
+                    <p>Great examples! The visual representations made it much easier to grasp.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <script src="index.js"></script>
+
+    <footer>
+        <div class="footer_content">
+            <div class="footer_section">
+                <h3>About Us</h3>
+                <p>We're dedicated to making mathematical concepts like iteration and recursion accessible to everyone through clear explanations and practical examples.</p>
+            </div>
+            
+            <div class="footer_section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#hello">Home</a></li>
+                    <li><a href="#kk_q">Learn</a></li>
+                    <li><a href="#comments_area">Community</a></li>
+                    <li><a href="#data_information">Resources</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer_section">
+                <h3>Contact</h3>
+                <ul>
+                    <li>Email: info@example.com</li>
+                    <li>Phone: (123) 456-7890</li>
+                    <li>Address: 123 Math Street</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <p>&copy; 2024 Iteration & Recursion Hub. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
